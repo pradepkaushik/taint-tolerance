@@ -14,12 +14,12 @@ spec:
       labels:
         app: nginx-prod
 
-    spec:
-      tolerations:
-      - key: "env"
-        operator: "Equal"
-        value: "prod"
-        effect: "NoSchedule"
+    #spec:
+      #tolerations:
+      #- key: "env"
+        #operator: "Equal"
+        #value: "prod"
+       # effect: "NoSchedule"
 
       containers:
       - name: nginx
